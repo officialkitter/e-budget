@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "eBudget",
+    "slug": "e-budget",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F5F7F7",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F7F7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "com.ebudget.app"
+    },
+    "android": {
+      "package": "com.ebudget.app",
+      "backgroundColor": "#F5F7F7",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#F5F7F7"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
